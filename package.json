@@ -8,6 +8,7 @@
     "start": "react-native start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
+    "postinstall": "patch-package",
     "test:watch": "jest --watch"
   },
   "dependencies": {
@@ -39,6 +40,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
+    "patch-package": "6.2.1",
     "prettier": "^1.19.1",
     "react-test-renderer": "16.9.0",
     "typescript": "^3.7.3"
